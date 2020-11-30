@@ -21,7 +21,7 @@ html{
 /* Background image on the home page
 */
 .all
-{background-image: url("./images/plague.webp");
+{background-image: url("./images/plague.png");
 background-position: 75% 55%;
 background-attachment: fixed;
 background-repeat: no-repeat;
