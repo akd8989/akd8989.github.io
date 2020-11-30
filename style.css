@@ -20,8 +20,9 @@ html{
 
 /* Background image on the home page
 */
-.all
-{background-image: url("./images/plague.png");
+.all{
+/* {background-image: url("./images/plague.png"); */
+background-image: url("https://raw.githubusercontent.com/akd8989/akd8989.github.io/main/images/plague.png");
 background-position: 75% 55%;
 background-attachment: fixed;
 background-repeat: no-repeat;
