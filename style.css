@@ -1,0 +1,229 @@
+
+
+/*html {
+	font-size: 20px;
+	font-family: Trocchi, serif;
+	scroll-behavior: smooth;
+}*/
+
+
+html{
+	
+	font-family: Didot, serif; 
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 54px; 
+	margin-left: 15%;
+	margin-right: 15%;
+	scroll-behavior: smooth;
+}
+
+/* Background image on the home page
+*/
+.all
+{background-image: url("./images/plague.png");
+background-position: 75% 55%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 35%;
+}
+
+/* Style the links inside the navigation bar */
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+}
+
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  font-variant: small-caps;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+
+
+
+
+#home{
+}
+
+.home-name {
+	color: #333333; 
+	font-variant: small-caps;
+	font-size: 50px; 
+	margin-top: 25%;
+	margin-left: 2%;
+	float: left;
+
+}
+
+.home-image
+{	margin-top: 20%;
+	float: right;
+	display: inline;
+	height: 100%
+}
+
+
+/*About page*/
+
+#about {
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+
+.about-me{
+	float:none;
+}
+
+#about-me-text{
+	float:none;
+}
+
+.about-image
+{	
+	float: right;
+	display: inline;
+	margin-right: -43%;
+	margin-left: 3%;
+	height: auto;
+}
+
+.about-button-resume, .about-button-public{
+	margin-left: 30%;
+	margin-top: 5%;
+	font-size: 20px;
+	width: 175px;
+	height: 50px;
+	background-color: white;
+	font-family: Didot, serif; 
+	text-align: center;
+	box-shadow: 10px;
+	cursor: pointer;
+	filter: grayscale(90%);
+}
+
+.about-button-public{
+	margin-left: 2%;
+}
+
+.about-button-resume:hover, .about-button-public:hover{
+  background-color: black;
+  color: white;
+
+}
+
+.contact{
+	margin-top:8%;
+}
+
+.resume{
+	margin-top: 7%;
+}
+
+
+
+.material-icons{
+	margin-bottom: -30%;
+	display: inline
+}
+
+.contact-address-address, .contact-email-email {
+	margin-left: 3.5%;
+	margin-top: -6.5%;
+}
+
+
+
+
+
+/*Research*/
+
+#research {
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+
+.research-image{
+	display: inline;
+	float: left;
+	margin-right: 5%;
+	margin-top: 2%;
+
+}
+
+
+.research-description-time{
+	float:none;
+
+}
+
+#publications{
+	margin-top: 5%;
+	margin-bottom: 20%
+
+}
+
+.publ-list{
+	margin-bottom: 3%;
+
+}
+
+
+/*Teaching*/
+
+/*.teaching-image{
+	 object-fit: scale-down;
+	 width: 100%;
+	 height: 50%;
+	 overflow: hidden;
+
+*/
+
+
+.teaching-image {
+    width: 100% ;/* width of container */
+    height: 500px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 70%; /* try 20px 10px */ 
+}
+
+.teaching-button{
+	margin-left: 37%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	font-size: 20px;
+	width: 350px;
+	height: 50px;
+	background-color: white;
+	font-family: Didot, serif; 
+	text-align: center;
+	box-shadow: 10px;
+	cursor: pointer;
+	filter: grayscale(90%);
+
+}
+
+
+.teaching-button:hover{
+  background-color: black;
+  color: white;
+}
