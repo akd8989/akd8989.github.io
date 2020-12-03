@@ -177,6 +177,26 @@ background-size: 35%;
 
 }
 
+
+.reseach-button-opeds{
+	font-size: 20px;
+	margin-left: 5%;
+	width: 175px;
+	height: 50px;
+	background-color: white;
+	font-family: Didot, serif; 
+	text-align: center;
+	box-shadow: 10px;
+	cursor: pointer;
+	filter: grayscale(90%);
+}
+
+.reseach-button-opeds:hover{
+  background-color: black;
+  color: white;
+}
+
+
 #publications{
 	margin-top: 5%;
 	margin-bottom: 20%
